@@ -1,0 +1,55 @@
+body{
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.heading{
+    font-size: 30px;
+    text-shadow: 3px 2px steelblue;
+    font-weight: bold;
+    margin-top: 0;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+canvas{
+    border-style: double;
+    border-radius: 11px;
+    border-color: rgb(210, 44, 44);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+#title{
+    color: rgb(210, 75, 41);
+}
+
+.btn-danger:hover{
+    background-color: rgb(83, 34, 34);
+    color: rgb(245, 194, 194);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(243, 87, 87);}
+    to{box-shadow: 1px 1px 38px rgb(245, 141, 113);}
+
+}
+
+#footer{
+    background-color: rgb(245, 194, 194);
+    font-size: 21px;
+    text-decoration: underline;
+    text-rendering:optimizeSpeed;
+    text-shadow: 2px 2px rgb(232, 61, 61);
+    /* padding: 5px; */
+    line-height: 2.3;
+    position:fixed;
+    bottom: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
